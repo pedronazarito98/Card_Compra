@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.container {
+  position: absolute;
+  width: 270px;
+  height: 390px;
+  top: 210px;
+}
+
+.card {
+  position: absolute;
+  width: 265px;
+  height: 385px;
+  background-color: #fff;
+  border-radius: 16px 50px 16px 16px;
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.25);
+}
+.image {
+  position: relative;
+  width: 321px;
+  height: 321px;
+  bottom: 90px;
+}
+
+.image img {
+  position: absolute;
+  transform: translate(-8%, -25%);
+}
+
+.conteudo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 190px;
+  padding: 15px;
+}
+.title {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.marca {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #8f8f8f;
+  font-weight: bold;
+}
+.titulo {
+  font-size: 26px;
+  color: #29455f;
+  font-weight: 700;
+}
+
+.price {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+.price p {
+  color: #808080;
+  font-size: 14px;
+  margin: 5px;
+  font-weight: 700;
+}
+.price h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #29455f;
+}
+.cores-container {
+  padding: 5px 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.cores-container h3 {
+  color: #808080;
+  font-size: 12px;
+}
+
+.cores {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+.color-1 {
+  background-color: #b5db48;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+.color-2 {
+  background-color: #ff3838;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+.color-3 {
+  background-color: #3864ff;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+
+.tamanho-container {
+  padding: 5px 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.tamanho-container h3 {
+  color: #808080;
+  font-size: 12px;
+}
+
+.tamanho-size {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.size-1 {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  border-radius: 8px;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+.size-2 {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  border-radius: 8px;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+.size-3 {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  border-radius: 8px;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
+.size-4 {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  border-radius: 8px;
+  height: 25px;
+  margin: 0 10px;
+  transition: 0.5s;
+  width: 25px;
+}
